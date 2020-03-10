@@ -7,8 +7,9 @@ def hello_t(array)
     yield(array[i])
     i = i + 1 
   end
+  array 
 end
-end
+hello_t {|
 
  array = ["Tim", "Tom", "Jim"]
  hello_t(array) 
