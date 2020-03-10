@@ -35,8 +35,7 @@ def hello_t(array)
     i = i + 1 
   end
 end 
-# Step 4 : Calling our method 
-["Tim","Tom","Jim"]
+
 
 hello_t(["Tim","Tom","Jim"]) do |name|
   if name.star_with?("T")
