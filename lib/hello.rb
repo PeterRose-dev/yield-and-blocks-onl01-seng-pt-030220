@@ -9,3 +9,6 @@ def hello_t(array)
   end
 end
 end
+
+ array = ["Tim", "Tom", "Jim"]
+ hello_t(array) 
