@@ -1,15 +1,8 @@
 
 
 # call your method here!
-def hello_t(array) 
-  i = 0 
-  while i < array.length 
-    yield(array[i])
-    i = i + 1 
-  end
-  array 
+def yielding_with_arguments(num)
+  puts "the program is executing the code inside the method"
+  yield(num)
+  puts "now we are back in the method"
 end
-hello_t {|
-
- array = ["Tim", "Tom", "Jim"]
- hello_t(array) 
