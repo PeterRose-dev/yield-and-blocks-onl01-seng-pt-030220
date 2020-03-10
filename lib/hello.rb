@@ -8,3 +8,4 @@ def hello_t(array)
     puts "Hi, #{name}"
   end
 end
+end
